@@ -28,3 +28,6 @@ The test file contains 5 test cases:
 4. This test case depends on previous two test cases. In this test we first check whether any object should not be null. Then we check for the Temperature in celsius value from both the objects(ui and api).
 
 5. This test case depends on previous two test cases. In this test we first check whether any object should not be null. Then we check for the Temperature in fahrenheit value from both the objects(ui and api).
+
+Variance logic for humidity is +-(10)
+Variance logic for temperature is +-(5)
