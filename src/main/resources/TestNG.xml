@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Vagrant">
+
+    <listeners>
+        <listener class-name="com.testvagrant.report.ExtentListners"></listener>
+    </listeners>
+    <test name="UI Automation">
+        <classes>
+            <class name="com.testvagrant.testcases.TestCaseClass"></class>
+
+        </classes>
+    </test>
+</suite>
